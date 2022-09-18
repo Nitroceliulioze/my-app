@@ -1,0 +1,43 @@
+.auth {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: calc(100vh - 150px);;
+}
+
+.authWrapper {
+    width: 60%;
+    display: flex;    
+    justify-content: center;
+}
+.authMain {
+    height: 250px;
+    width: 250px;
+    border: 1px solid grey;
+}
+
+.authInput {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;    
+    padding: 10px;
+}
+
+.authInput input {
+    border: none;
+    padding: 10px 5px;
+}
+
+.authButton {
+    display: flex;
+    justify-content: center;    
+}
+
+.authButton button {
+    border: none;
+    width: 100%;
+    height: 25px;
+    background-color: rgb(195, 156, 232);
+
+}
